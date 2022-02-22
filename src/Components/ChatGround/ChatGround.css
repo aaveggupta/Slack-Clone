@@ -1,0 +1,73 @@
+.chatground {
+  flex: 0.82;
+  height: calc(100vh - 50.2px);
+  display: flex;
+  flex-flow: column;
+}
+
+.chatground__header {
+  display: flex;
+  flex: 0.056;
+  justify-content: space-between;
+  padding: 0.667rem 1.3rem;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.chatground__header > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatground__header-left__title {
+  font-size: 1.2rem;
+  margin: 0 0.4rem 0 0.1rem;
+}
+
+.chatground__header-right__details {
+  font-weight: 500;
+  margin-left: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.chatground__messages {
+  height: 20rem;
+  overflow-y: scroll;
+  flex-grow: auto;
+  flex: 0.888;
+}
+
+.chatground__form {
+  flex: 0.065;
+  padding: 0 1.3rem;
+  margin-bottom: 0.7rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.chatground__form > input {
+  width: 70%;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+  margin-right: 0.5rem;
+}
+
+.chatground__form > button {
+  padding: 0.8rem 1rem;
+  border: none;
+  font-size: 1rem;
+  background-color: #00a500;
+  color: white;
+  font-weight: 500;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.chatground__form > button:hover {
+  transition: 200ms all ease;
+  background-color: #007a00;
+}

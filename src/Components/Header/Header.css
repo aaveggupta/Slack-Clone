@@ -1,0 +1,90 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1.5rem;
+  background-color: var(--slack-color);
+}
+
+.header__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex: 0.3;
+}
+
+.header__left-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.header__left-arrow-l {
+  cursor: pointer;
+}
+
+.header__left-arrow-r {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.header__left-time {
+  margin: 0 1.3rem;
+  cursor: pointer;
+}
+
+.header__center {
+  flex: 0.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header__center-search {
+  width: 100%;
+  outline: none;
+  border: 2px solid #68526e;
+  background-color: var(--slack-color);
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+  color: rgb(230, 227, 227);
+  text-align: center;
+}
+
+.header__center-icon {
+  position: absolute;
+  left: 13.5vw;
+  font-size: 1.1rem;
+  color: #757575;
+}
+
+.header__center-search::-webkit-input-placeholder {
+  font-family: "Roboto", FontAwesome;
+  text-align: center;
+}
+
+.header__right {
+  flex: 0.3;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__right-logo {
+  position: absolute;
+  right: 0;
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+}

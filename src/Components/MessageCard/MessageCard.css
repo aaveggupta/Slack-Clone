@@ -1,0 +1,45 @@
+.messagecard {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 1.3rem;
+}
+
+.messagecard__img,
+.messagecard__img1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  width: 2.5rem;
+  height: auto;
+  position: absolute;
+  top: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.messagecard__img1 {
+  position: static;
+  visibility: hidden;
+}
+
+.messagecard__right {
+  margin: 0 0.5rem;
+}
+
+.messagecard__right-name {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.1rem;
+}
+
+.messagecard__right-time {
+  font-weight: 400;
+  color: rgb(75, 75, 75);
+  font-size: 0.8rem;
+}
+
+.messagecard__right-message {
+  font-size: 1rem;
+  width: 50vw;
+}

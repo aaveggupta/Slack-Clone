@@ -1,0 +1,27 @@
+.sidebaroption {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0.6rem 0.8rem;
+  color: var(--dull-white);
+}
+
+.sidebaroption__icon {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.sidebaroption__text {
+  font-weight: 400;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.sidebaroption__text:hover {
+  transition: 200ms all ease-in;
+  color: rgb(201, 201, 201);
+}
+
+.sidebaroption__highlight {
+  background-color: red;
+}

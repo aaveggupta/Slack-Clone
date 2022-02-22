@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+<div id="top"></div>
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1 align="center">Slack Clone</h1>
+  <p align="center">
+    Completely build using React.js and Powered with Firebase
+  </p>
+  <a href="https://aavegcodes-slack-clone.web.app/">View Demo</a>
+</div>
 
-## Available Scripts
+## Project Screenshot
 
-In the project directory, you can run:
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-### `npm start`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [React.js](https://reactjs.org/)
+- [Firebase Firestore](https://firebase.google.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Router DOM](https://www.npmjs.com/package/react-router-dom)
 
-### `npm test`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Learnings
 
-### `npm run build`
+Important things that I learnt building this project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Google User Authentication** using **firebase**
+2. Efficient way to use **contextAPI** in React to fetch data in any component
+3. Take note of clean approach to **navigate** anywhere in the web app with **React Router Dom** using **useNavigate**, **useParam** like powerful hooks
+4. **CRUD** operation in **firestore** database
+5. Instead of **useState**, I used **useReducer** Hook to implement state logic
+6. Implemented complex styling using **CSS**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contact
 
-### `npm run eject`
+Aaveg Gupta - [linkedin/aaveggupta](https://www.linkedin.com/in/aaveggupta/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Project Link: [https://github.com/aaveggupta/Slack-Clone](https://github.com/aaveggupta/Slack-Clone)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Demo Link: [https://aavegcodes-slack-clone.web.app/](https://aavegcodes-slack-clone.web.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[product-screenshot]: readme_asset/slack_screenshot.png
